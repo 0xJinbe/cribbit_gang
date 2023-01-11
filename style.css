@@ -70,6 +70,19 @@ body {
     object-position: center center;
 }
 
+.img-frogwood {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.img-kingPins {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center center;
+}
 
 .social {
     display: flex;
@@ -102,8 +115,8 @@ a {
     transition: width 0.6s linear;
     overflow-x: hidden;
     
-    position: absolute;
-    top: 50%;
+    position: fixed;
+    top: 3%;
 }
 
 .nav-about {
