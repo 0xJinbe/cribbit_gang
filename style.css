@@ -112,6 +112,14 @@ a {
     height: 100vh;
 }
 
+.left-side {
+    text-align: center;
+}
+
+.h2-title {
+    margin-bottom: 50px;
+}
+
 .right-side {
     margin-left: 5%;
     max-width: 50%;
