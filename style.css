@@ -52,6 +52,19 @@ body {
 
 }
 
+.content2 {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    height: 130vh;
+}
+
 .img-title {
     max-width: 660px;
     width: 80%;
@@ -61,7 +74,7 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.small-text{
+.small-text {
     max-width: 660px;
     width: 80%;
     position: absolute;
@@ -103,7 +116,7 @@ a {
     position: absolute;
     overflow: hidden;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 80%;
@@ -120,8 +133,8 @@ a {
     margin-bottom: 50px;
 }
 
-.font-bold{
-    font-weight:bold;
+.font-bold {
+    font-weight: bold;
 }
 
 .right-side {
@@ -129,13 +142,122 @@ a {
     max-width: 50%;
 }
 
-.text-centered{
+.text-centered {
     text-align: center;
     margin-bottom: 20px;
 }
 
 .bigger-text {
     font-size: 1.5rem;
+}
+
+.teamGrid {
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    height: 120vh;
+}
+
+.top {
+    position: absolute;
+    top: 5%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    position: absolute;
+    top: 45%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pfp {
+    max-height: 150px;
+}
+
+.teamTitle {
+    position: absolute;
+    top: 0%;
+}
+
+.teamTitle2 {
+    position: absolute;
+    top: 40%;
+}
+
+.teamTitle3 {
+    position: absolute;
+    top: 85%;
+}
+
+.square {
+    margin: 25px;
+}
+
+.mintBtn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px rgb(255, 255, 255) solid;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    overflow: hidden;
+    margin: 10px 0;
+    position: absolute;
+    top: 3%;
+    left: 85%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.ripple {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px rgb(255, 255, 255) solid;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    overflow: hidden;
+    margin: 10px 0;
+    position: absolute;
+    bottom: 0%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button:focus {
+    outline: none;
+}
+
+button .circle {
+    position: absolute;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    animation: scale 0.5s ease-out;
+}
+
+@keyframes scale {
+    to {
+        transform: translate(-50%, -50%) scale(3);
+        opacity: 0;
+    }
 }
 
 .nav-home {
