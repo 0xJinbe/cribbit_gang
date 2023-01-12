@@ -61,6 +61,16 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.small-text{
+    max-width: 660px;
+    width: 80%;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 
 .img-ganggang {
     width: 100%;
