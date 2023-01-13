@@ -466,7 +466,7 @@ nav.active .icon .line2 {
         justify-content: flex-start;
     }
 
-    .square-full {
+    /* .square-full {
         position: absolute;
         bottom: 0;
         left: 50%;
@@ -476,7 +476,7 @@ nav.active .icon .line2 {
         align-items: center;
         justify-content: center;
         width: 90vw;
-    }
+    } */
 
     .bottom {
         position: relative;
