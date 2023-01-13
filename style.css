@@ -62,7 +62,7 @@ body {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    height: 120vh;
+    height: 130vh;
 }
 
 .img-title {
@@ -121,7 +121,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 90%;
     height: 100%;
     box-sizing: border-box;
     height: 100vh;
@@ -147,6 +147,7 @@ a {
 .text-centered {
     text-align: center;
     margin-bottom: 20px;
+    width: 225px;
 }
 
 .bigger-text {
@@ -156,20 +157,20 @@ a {
 .teamGrid {
     position: absolute;
     overflow: hidden;
-    display: flex;
-    flex-direction: row;
+    display:flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 90%;
     height: 100%;
     box-sizing: border-box;
-    height: 100vh;
+    height: 120vh;
 }
 
 .top {
-    position: absolute;
-    top: 5%;
+    position: relative;
     overflow: hidden;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -177,11 +178,18 @@ a {
 }
 
 .bottom {
-    position: absolute;
-    top: 35%;
+    position: relative;
     overflow: hidden;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -191,26 +199,18 @@ a {
 }
 
 .teamTitle {
-    position: absolute;
-    top: 0%;
+    position: relative;
     text-shadow: 5px 2px #000000;
-}
-
-.teamTitle2 {
-    position: absolute;
-    top: 40%;
+    margin-top: 100px;
 }
 
 .teamTitle3 {
-    position: absolute;
-    top: 85%;
+    margin-top: 70px;
+    position: relative;
     text-shadow: 5px 2px #000000;
-
 }
 
-.square {
-    margin: 25px;
-}
+
 
 .mintBtn {
     background-color: rgb(255, 255, 255);
@@ -243,9 +243,7 @@ a {
     text-transform: uppercase;
     padding: 20px 30px;
     overflow: hidden;
-    margin: 10px 0;
-    position: absolute;
-    bottom: 0%;
+    position: relative;
     font-family: 'Press Start 2P', cursive;
 }
 
