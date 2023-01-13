@@ -385,4 +385,45 @@ nav.active .icon .line2 {
         transform: translate(-50%, -50%);
     }
 
+    .mintBtn {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border: 1px rgb(255, 255, 255) solid;
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 15px 20px;
+        overflow: hidden;
+        margin: 10px 0;
+        position: absolute;
+        top: 3%;
+        left: 65%;
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    .gif-collection {
+        max-width: 300px;
+    }
+
+    .content-flex {
+        position: absolute;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100%;
+        box-sizing: border-box;
+        height: 100vh;
+    }
+
+    .description-text {
+        font-size: 14px;
+    }
+
+    .right-side {
+        max-width: 90%;
+    }
+
 }
