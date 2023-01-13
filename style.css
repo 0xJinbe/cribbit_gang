@@ -82,6 +82,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    color: white;
+    text-shadow: 5px 2px #000000;
 }
 
 
@@ -191,6 +193,7 @@ a {
 .teamTitle {
     position: absolute;
     top: 0%;
+    text-shadow: 5px 2px #000000;
 }
 
 .teamTitle2 {
@@ -201,6 +204,8 @@ a {
 .teamTitle3 {
     position: absolute;
     top: 85%;
+    text-shadow: 5px 2px #000000;
+
 }
 
 .square {
@@ -225,6 +230,7 @@ a {
 
 .captalize {
     text-transform: uppercase;
+    text-shadow: 5px 2px #000000;
 
 }
 
