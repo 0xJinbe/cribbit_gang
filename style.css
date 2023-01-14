@@ -445,11 +445,11 @@ nav.active .icon .line2 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content:center;
         width: 90%;
-        height: 100%;
+        height: 90%;
         box-sizing: border-box;
-        height: 120vh;
+        height: 100vh;
     }
 
     .mobile-team {
@@ -457,17 +457,25 @@ nav.active .icon .line2 {
         width: 90%;
         height: 100%;
         box-sizing: border-box;
-        height: 110vh;
     }
 
     .teamTitle {
-        position: relative;
+        margin: 0;
+        margin-bottom: 10px;
+        text-transform: uppercase;
         text-shadow: 5px 2px #000000;
-        margin-top: 10px;
+        font-size: 18px;
     }
 
     .pfp {
-        max-height: 125px;
+        max-height: 100px;
+    }
+
+    .text-centered {
+        text-align: center;
+        margin-bottom: 20px;
+        width: auto;
+        font-size: 10px;
     }
 
     .top {
@@ -505,16 +513,25 @@ nav.active .icon .line2 {
     }
 
     .teamTitle3 {
-        margin-top: 10px;
-        position: relative;
+        margin: 0;
+        margin-bottom: 10px;
+        text-transform: uppercase;
         text-shadow: 5px 2px #000000;
+        font-size: 18px;
     }
 
-    .text-centered {
-        text-align: center;
-        margin-bottom: 20px;
-        width: auto;
-        font-size: 10px;
+    .ripple {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border: 1px rgb(255, 255, 255) solid;
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        overflow: hidden;
+        position: relative;
+        font-family: 'Press Start 2P', cursive;
+        margin-bottom: 10px;
     }
 
 }
