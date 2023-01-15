@@ -399,7 +399,7 @@ nav.active .icon .line2 {
     }
 
     .gif-collection {
-        max-width: 250px;
+        max-width: 300px;
         margin-bottom: 10px;
     }
 
@@ -437,6 +437,7 @@ nav.active .icon .line2 {
         max-width: 90%;
         margin-left: 0%;
         height: auto;
+        overflow: scroll;
     }
 
     .teamGrid {
