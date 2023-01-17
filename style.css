@@ -514,14 +514,17 @@ nav.active .icon .line2 {
     }
 
     .teamTitle3 {
+        position: absolute;
+        bottom: 20%;
         margin: 0;
-        margin-bottom: 10px;
         text-transform: uppercase;
         text-shadow: 5px 2px #000000;
         font-size: 18px;
     }
 
     .ripple {
+        position: absolute;
+        bottom: 15%;
         background-color: rgb(255, 255, 255);
         color: rgb(0, 0, 0);
         border: 1px rgb(255, 255, 255) solid;
