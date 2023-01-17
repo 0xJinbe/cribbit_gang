@@ -448,9 +448,9 @@ nav.active .icon .line2 {
         align-items: center;
         justify-content:center;
         width: 90%;
-        height: 90%;
+        height: 120%;
         box-sizing: border-box;
-        height: 100vh;
+        height: 120vh;
     }
 
     .mobile-team {
