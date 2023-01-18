@@ -109,6 +109,10 @@ a {
 
 .pre-looader {
   position: fixed;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
   z-index: 500;
   display: none;
   width: 100vw;
