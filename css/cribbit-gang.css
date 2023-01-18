@@ -172,7 +172,7 @@ a {
   width: 30ch;
   margin-bottom: 85px;
   font-family: Pressstart2p, sans-serif;
-  color: #ececec;
+  color: #00ff41;
   font-size: 1.5rem;
   line-height: 1.5;
 }
@@ -180,7 +180,7 @@ a {
 .text-block-landingp3 {
   width: 60ch;
   margin-bottom: 15px;
-  color: #ececec;
+  color: #00ff41;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -188,7 +188,7 @@ a {
 .text-block-landingp4 {
   width: 50ch;
   margin-bottom: 15px;
-  color: #ececec;
+  color: #00ff41;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -196,7 +196,7 @@ a {
 .text-block-landingp5 {
   width: 40ch;
   margin-bottom: 2rem;
-  color: #ececec;
+  color: #00ff41;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -308,7 +308,7 @@ a {
   background-image: url('../images/frogwood.png');
   background-position: 50% 50%;
   background-size: cover;
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 .section {
@@ -829,7 +829,7 @@ a {
   }
 
   .contentleft {
-    width: 100%;
+    width: 80%;
   }
 
   .paragraph {
