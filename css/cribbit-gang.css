@@ -160,7 +160,7 @@ a {
   right: auto;
   bottom: auto;
   width: 40ch;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
   margin-left: 0px;
   font-family: Pressstart2p, sans-serif;
   color: #ececec;
@@ -170,7 +170,7 @@ a {
 
 .text-block-landingp2 {
   width: 30ch;
-  margin-bottom: 85px;
+  margin-bottom: 40px;
   font-family: Pressstart2p, sans-serif;
   color: #00ff41;
   font-size: 1rem;
@@ -179,7 +179,7 @@ a {
 
 .text-block-landingp3 {
   width: 60ch;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
   color: #00ff41;
   font-size: 1rem;
   line-height: 1.5;
@@ -195,7 +195,7 @@ a {
 
 .text-block-landingp5 {
   width: 40ch;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   color: #00ff41;
   font-size: 1rem;
   line-height: 1.5;
