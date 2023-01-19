@@ -110,7 +110,7 @@ a {
 .pre-looader {
   position: fixed;
   z-index: 500;
-  display: none;
+  display: block;
   width: 100vw;
   height: 100vh;
   -webkit-box-orient: vertical;
@@ -420,12 +420,12 @@ a {
 }
 
 .headingentrance {
-  display: none;
-  color: #fff;
-  font-size: 3.5rem;
-  line-height: 4.5rem;
+  display: block;
+  color: #ececec;
+  font-size: 1rem;
+  line-height: 1;
   font-weight: 400;
-  letter-spacing: 5px;
+  letter-spacing: 0px;
   text-transform: uppercase;
 }
 
@@ -661,6 +661,38 @@ a {
   background-color: #141414;
 }
 
+.text-block-landingp6 {
+  width: 40ch;
+  margin-bottom: 3rem;
+  color: #00ff41;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.text-block-landingp7 {
+  width: 40ch;
+  margin-bottom: 3rem;
+  color: #00ff41;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.text-block-landingp8 {
+  width: 40ch;
+  margin-bottom: 3rem;
+  color: #00ff41;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.text-block-landingp9 {
+  width: 40ch;
+  margin-bottom: 3rem;
+  color: #00ff41;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 @media screen and (max-width: 991px) {
   .pre-looader {
     display: none;
@@ -736,6 +768,26 @@ a {
 
   .calltoactionbtn {
     margin-bottom: 60px;
+  }
+
+  .text-block-landingp6 {
+    width: auto;
+    font-size: 0.5rem;
+  }
+
+  .text-block-landingp7 {
+    width: auto;
+    font-size: 0.5rem;
+  }
+
+  .text-block-landingp8 {
+    width: auto;
+    font-size: 0.5rem;
+  }
+
+  .text-block-landingp9 {
+    width: auto;
+    font-size: 0.5rem;
   }
 }
 

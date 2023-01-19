@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Thu Jan 19 2023 15:09:59 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Thu Jan 19 2023 15:46:22 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="63c6cd9f4905f48f8900054f" data-wf-site="63c6cd9f4905f4a6e0000550">
 <head>
   <meta charset="utf-8">
@@ -55,13 +55,17 @@
   </div>
   <div data-w-id="9d9d6e0e-6da8-5751-846f-c1aa65280f16" style="opacity:1;display:flex" class="pre-looader">
     <div class="bg"></div>
-    <div class="lowleftwrapper"><img src="images/title.png" loading="lazy" width="300" sizes="100vw" srcset="images/title-p-500.png 500w, images/title-p-800.png 800w, images/title-p-1080.png 1080w, images/title.png 1257w" alt="" class="image">
-      <h1 class="headingentrance">CRIBBIT GANG</h1>
+    <div class="lowleftwrapper"><img src="images/title.png" loading="lazy" width="300" sizes="(max-width: 991px) 100vw, 300px" srcset="images/title-p-500.png 500w, images/title-p-800.png 800w, images/title-p-1080.png 1080w, images/title.png 1257w" alt="" class="image">
+      <h1 class="headingentrance">The motherfrogging gang is here.</h1>
       <div id="p1" class="text-block-landingp1"><strong>‍<br><br>‍</strong></div>
       <div id="p2" class="text-block-landingp2"></div>
       <div id="p3" class="text-block-landingp3"></div>
       <div id="p4" class="text-block-landingp4"></div>
       <div id="p5" class="text-block-landingp5"></div>
+      <div id="p6" class="text-block-landingp6"></div>
+      <div id="p7" class="text-block-landingp7"></div>
+      <div id="p8" class="text-block-landingp8"></div>
+      <div id="p9" class="text-block-landingp9"></div>
     </div>
   </div>
   <div class="section wf-section">
@@ -145,7 +149,7 @@
       //bootloader green text function
       //part1
       var content1 =
-        "The motherfrogging gang is here.";
+        "CRIBBIT BOOTLOADER V1.69";
       var ele1 =
         "<span>" + content1.split("").join("</span><span>") + "</span>";
       $(ele1)
@@ -167,7 +171,7 @@
         });
       //part2
       var content2 =
-        "CRIBBIT BOOTLOADER V1.69";
+        "Meme loading …. Done";
       var ele2 =
         "<span>" + content2.split("").join("</span><span>") + "</span>";
       $(ele2)
@@ -189,7 +193,7 @@
         });
       //part3
       var content3 =
-        " Meme loading …. Done => Generating pixel pepes … Done    Cribbit Gang …. Done => Generating $DOUGH …. Done    Generating Gangsterland …. Done => Fetching Domino’s …. Done";
+        "Generating pixel pepes … Done";
       var ele3 =
         "<span>" + content3.split("").join("</span><span>") + "</span>";
       $(ele3)
@@ -211,7 +215,7 @@
         });
       //part 4
       var content4 =
-        "All hustlers successfully loaded.....";
+        "Cribbit gang …. Done";
       var ele4 =
         "<span>" + content4.split("").join("</span><span>") + "</span>";
       $(ele4)
@@ -232,12 +236,96 @@
             );
         });
       //part 5
-      var content5 = "Engage hostile take-over.";
+      var content5 = "Generating $DOUGH …. Done";
       var ele5 =
         "<span>" + content5.split("").join("</span><span>") + "</span>";
       $(ele5)
         .hide()
         .appendTo($("#p5"))
+        .each(function(i) {
+          $(this)
+            .delay(4000)
+            .delay(40 * i)
+            .css({
+              display: "inline",
+              opacity: 0,
+            })
+            .animate({
+                opacity: 1,
+              },
+              100
+            );
+        });
+      //part 6
+      var content6 = "Generating Gangsterland …. Done";
+      var ele6 =
+        "<span>" + content6.split("").join("</span><span>") + "</span>";
+      $(ele6)
+        .hide()
+        .appendTo($("#p6"))
+        .each(function(i) {
+          $(this)
+            .delay(4000)
+            .delay(40 * i)
+            .css({
+              display: "inline",
+              opacity: 0,
+            })
+            .animate({
+                opacity: 1,
+              },
+              100
+            );
+        });
+      //part 7
+      var content7 = "Fetching Domino’s …. Done";
+      var ele7 =
+        "<span>" + content7.split("").join("</span><span>") + "</span>";
+      $(ele7)
+        .hide()
+        .appendTo($("#p7"))
+        .each(function(i) {
+          $(this)
+            .delay(4000)
+            .delay(40 * i)
+            .css({
+              display: "inline",
+              opacity: 0,
+            })
+            .animate({
+                opacity: 1,
+              },
+              100
+            );
+        });
+      //part 8
+      var content8 = "All hustlers successfully loaded.....";
+      var ele8 =
+        "<span>" + content8.split("").join("</span><span>") + "</span>";
+      $(ele8)
+        .hide()
+        .appendTo($("#p8"))
+        .each(function(i) {
+          $(this)
+            .delay(4000)
+            .delay(40 * i)
+            .css({
+              display: "inline",
+              opacity: 0,
+            })
+            .animate({
+                opacity: 1,
+              },
+              100
+            );
+        });
+      //part 9
+      var content9 = "Engage hostile take-over.";
+      var ele9 =
+        "<span>" + content9.split("").join("</span><span>") + "</span>";
+      $(ele9)
+        .hide()
+        .appendTo($("#p9"))
         .each(function(i) {
           $(this)
             .delay(4000)
