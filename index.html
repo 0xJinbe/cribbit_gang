@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Thu Jan 19 2023 20:19:59 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Thu Jan 19 2023 21:26:48 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="63c6cd9f4905f48f8900054f" data-wf-site="63c6cd9f4905f4a6e0000550">
 <head>
   <meta charset="utf-8">
@@ -28,16 +28,6 @@
   <link href="images/webclip.png" rel="apple-touch-icon">
 </head>
 <body class="body">
-  <div class="cursor-wrapper">
-    <div class="w-embed">
-      <style>
-          .cursor-wrapper {
-            pointer-events: none;
-          }
-        </style>
-    </div>
-    <div class="cursor"></div>
-  </div>
   <div data-w-id="61a18671-2000-7766-4b4d-711167121aa5" class="entrance-popup">
     <div class="popup-top-bar">
       <div class="popup-title-wrap">
@@ -149,6 +139,20 @@
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   <script async="" src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <style>
+      /*Here, we apply the cursor to the entire body of the page */
+      body {
+        cursor: url("https://uploads-ssl.webflow.com/63c6cd9f4905f4a6e0000550/63c737a4541868ea08a3ff8f_cursor.png"), auto !important;
+      }
+      /*Here we apply the hover state cursor to elements that are not links */
+      .cursor-hover:hover {
+        cursor: url('https://uploads-ssl.webflow.com/63c6cd9f4905f4a6e0000550/63c737a4541868ea08a3ff8f_cursor.png'), auto !important
+      }
+      /*Here we apply the custom hover state cursor to all a tags when hovered over  */
+      a:hover {
+        cursor: url('https://uploads-ssl.webflow.com/63c6cd9f4905f4a6e0000550/63c737a4541868ea08a3ff8f_cursor.png'), auto !important
+      }
+    </style>
   <script>
       //bootloader green text function
       //part1

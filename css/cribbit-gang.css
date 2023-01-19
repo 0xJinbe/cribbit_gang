@@ -33,6 +33,12 @@ a {
   cursor: none;
 }
 
+img {
+  display: inline-block;
+  max-width: 100%;
+  cursor: none;
+}
+
 .body {
   display: -webkit-box;
   display: -webkit-flex;
@@ -239,9 +245,6 @@ a {
 .cursor {
   width: 20px;
   height: 20px;
-  background-image: url('../images/cursor.png');
-  background-position: 50% 50%;
-  background-size: cover;
 }
 
 .entrance-popup {
