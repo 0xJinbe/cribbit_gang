@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  Last Published: Thu Jan 19 2023 21:54:02 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  Last Published: Thu Jan 19 2023 22:07:37 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="63c6cd9f4905f48f8900054f" data-wf-site="63c6cd9f4905f4a6e0000550">
 <head>
   <meta charset="utf-8">
@@ -71,9 +71,7 @@
         <a href="#" class="mintbutton w-button">MINT</a>
       </div>
       <div id="play_btn" data-w-id="9bf7f300-e71b-a452-8bbc-0b07cd8ff2cf" class="play_btn">
-        <div class="w-embed"><audio preload="auto" id="bootloaderSound" src="audio/bootloaderSound.mp3" class="audio"></audio>
-          <audio id="desktopSound" src="audio/desktopSound.mp3" class="audio"></audio>
-        </div><img src="images/soundon_1soundon.png" loading="lazy" alt="" class="onicon"><img src="images/soundoff_1soundoff.png" loading="lazy" alt="" class="officon">
+        <div class="w-embed"><audio preload="auto" id="bootloaderSound" src="audio/bootloaderSound.mp3" class="audio"></audio></div><img src="images/soundon_1soundon.png" loading="lazy" alt="" class="onicon"><img src="images/soundoff_1soundoff.png" loading="lazy" alt="" class="officon">
       </div>
     </div>
     <div class="contentcollection">
@@ -349,7 +347,7 @@
             );
         });
       //audio functions
-      const audioD = document.getElementById("entranceSound");
+      const audioD = document.getElementById("bootloaderSound");
       let playingD = false;
       $(document).ready(function() {
         audioD.volume = 0.1;
