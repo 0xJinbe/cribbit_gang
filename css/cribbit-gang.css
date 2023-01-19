@@ -245,6 +245,9 @@ img {
 .cursor {
   width: 20px;
   height: 20px;
+  background-image: url('../images/cursor.png');
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 .entrance-popup {
@@ -714,6 +717,10 @@ img {
 
 .officon {
   display: none;
+}
+
+.c {
+  position: fixed;
 }
 
 @media screen and (max-width: 991px) {
