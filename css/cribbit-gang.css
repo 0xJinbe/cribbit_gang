@@ -110,7 +110,7 @@ a {
 .pre-looader {
   position: fixed;
   z-index: 500;
-  display: block;
+  display: none;
   width: 100vw;
   height: 100vh;
   -webkit-box-orient: vertical;
@@ -693,6 +693,28 @@ a {
   line-height: 1.5;
 }
 
+.play_btn {
+  position: absolute;
+  left: 2%;
+  top: 3%;
+  right: auto;
+  bottom: auto;
+  z-index: 1;
+  width: 2.55rem;
+  height: 2.55rem;
+  background-color: rgba(56, 152, 236, 0);
+  background-image: url('../images/soundon_1soundon.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.play_btn:hover {
+  background-image: url('../images/soundoff.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
 @media screen and (max-width: 991px) {
   .pre-looader {
     display: none;
@@ -984,6 +1006,10 @@ a {
 
   .teamimg {
     max-width: 90%;
+  }
+
+  .play_btn {
+    top: 5%;
   }
 }
 
