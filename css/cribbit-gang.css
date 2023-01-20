@@ -996,7 +996,7 @@ img {
   }
 
   .squareteam {
-    width: 140px;
+    width: auto;
     height: 210px;
   }
 
@@ -1019,7 +1019,8 @@ img {
   }
 
   .teamimg {
-    max-width: 90%;
+    width: 140px;
+    height: 140px;
   }
 
   .text-block-landingp9 {
