@@ -1288,6 +1288,8 @@ img {
 
   .faqwrapper.preview-page {
     margin-bottom: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .faqcell.accordion-1 {
