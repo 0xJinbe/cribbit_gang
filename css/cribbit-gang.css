@@ -967,6 +967,11 @@ img {
     margin-top: 60px;
   }
 
+  .headingcollection {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
   .paragraph {
     font-size: 14px;
   }
