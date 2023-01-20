@@ -446,8 +446,8 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 15vw;
-  height: 55px;
+  width: auto;
+  height: auto;
   margin-bottom: 20px;
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
@@ -456,6 +456,11 @@ img {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.sociallink {
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .containercontent {
