@@ -754,6 +754,10 @@ img {
   margin-left: auto;
 }
 
+.faqwrapper.preview-page {
+  margin-bottom: 80px;
+}
+
 .faqcell {
   display: -webkit-box;
   display: -webkit-flex;
