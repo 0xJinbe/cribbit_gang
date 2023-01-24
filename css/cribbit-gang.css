@@ -436,6 +436,10 @@ img {
   margin-left: 20px;
 }
 
+.sociallink.hideel {
+  display: none;
+}
+
 .containercontent {
   display: -webkit-box;
   display: -webkit-flex;
