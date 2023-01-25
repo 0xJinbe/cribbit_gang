@@ -544,8 +544,7 @@ img {
 .grid {
   display: -ms-grid;
   display: grid;
-  max-width: 886px;
-  min-width: 630px;
+  min-width: 900px;
   margin-bottom: 60px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -562,10 +561,10 @@ img {
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto;
-  grid-template-rows: auto;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
 }
 
 .divgrid.notshow {
@@ -1098,8 +1097,8 @@ img {
     margin-top: 60px;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: auto auto;
-    grid-template-rows: auto auto;
+    -ms-grid-rows: auto auto auto;
+    grid-template-rows: auto auto auto;
   }
 
   .headingteam2 {
@@ -1504,17 +1503,6 @@ img {
   justify-self: center;
 }
 
-#w-node-_36668177-6236-7be3-02ae-1a26cae242f7-8900054f {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
 #w-node-_95633e15-3ed3-4084-ee08-8ba99a931477-8900054f {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
@@ -1526,7 +1514,7 @@ img {
   grid-row-end: span 1;
 }
 
-#w-node-_1e9b90c6-7fba-ab21-e22a-35ff567ced70-8900054f {
+#w-node-_36668177-6236-7be3-02ae-1a26cae242f7-8900054f {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -1549,6 +1537,17 @@ img {
 }
 
 #w-node-fb90ff54-191b-6191-1a39-d78fe969fd53-8900054f {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_1e9b90c6-7fba-ab21-e22a-35ff567ced70-8900054f {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
