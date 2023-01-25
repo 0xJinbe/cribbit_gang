@@ -77,10 +77,12 @@ img {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 1px solid #000;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ececec;
   background-color: transparent;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#141414), to(#141414));
+  background-image: linear-gradient(180deg, #141414, #141414);
   cursor: -webkit-grab;
   cursor: grab;
 }
@@ -232,17 +234,22 @@ img {
   display: none;
   width: 30rem;
   height: auto;
-  padding: 0.1rem;
-  border: 1px solid #000;
+  padding: 0rem 0.1rem 0.1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ececec;
   background-color: #d6d6d1;
+  background-image: url('../images/faq_bg.png');
+  background-position: 0px 0px;
+  background-size: cover;
 }
 
 .paragraphentrance {
   margin-top: 0rem;
   margin-bottom: 2rem;
   font-family: Pressstart2p, sans-serif;
-  color: #141414;
-  font-size: 0.7rem;
+  color: #ececec;
+  font-size: 1rem;
   line-height: 1.5;
   text-align: center;
 }
@@ -1069,6 +1076,10 @@ img {
     font-size: 0.5rem;
   }
 
+  .entrance-popup {
+    display: none;
+  }
+
   .contentteam {
     height: auto;
   }
@@ -1152,6 +1163,7 @@ img {
   }
 
   .entrance-popup {
+    display: none;
     width: 95vw;
   }
 
@@ -1266,6 +1278,10 @@ img {
 }
 
 @media screen and (max-width: 479px) {
+  .popup-title {
+    text-align: center;
+  }
+
   .pre-looader {
     display: none;
   }
@@ -1286,6 +1302,10 @@ img {
   .entrance-popup {
     display: none;
     width: 90vw;
+  }
+
+  .paragraphentrance {
+    font-size: 0.8rem;
   }
 
   .contentcollection {
